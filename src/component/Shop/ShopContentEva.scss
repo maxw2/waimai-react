@@ -4,6 +4,7 @@
         flex: 1;
         overflow-y: scroll;
         box-sizing: border-box;
+        overflow: hidden;
     }
     .shop-content-eva::-webkit-scrollbar {
         display: none;
