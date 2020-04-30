@@ -1,6 +1,6 @@
 import React from 'react';
 import initMock from './mock/mock'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 import Index from './component/Index/Index'
 import Shop from './component/Shop/Shop'
