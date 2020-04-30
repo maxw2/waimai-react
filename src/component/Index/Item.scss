@@ -1,0 +1,42 @@
+.index {
+    .index-item {
+        width: 100%;
+        overflow: hidden;
+        max-height: 170px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            margin-top: 15px;
+            div{
+                flex: 1;
+            }
+            li {
+                width: 44px;
+                // padding: 0px 10px 10px 10px;
+                // box-sizing: border-box;
+                img {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                }
+                span {
+                    font-size: 11px;
+                    white-space: nowrap;
+                }
+            }
+            li {
+                content: "";
+                display: block;
+                flex: 1;
+            }
+            li {
+                content: "";
+                display: block;
+                flex: 1;
+            }
+        }
+    }
+}

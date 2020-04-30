@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+img{
+  background: #f5f5f5;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

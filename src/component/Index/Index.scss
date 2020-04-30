@@ -1,0 +1,8 @@
+.index {
+    overflow: scroll;
+    .index-content {
+        margin-top: 50px;
+        height: calc(100% - 50px);
+        
+    }
+}

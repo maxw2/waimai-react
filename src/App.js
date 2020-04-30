@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import initMock from './mock/mock'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
+import Index from './component/Index/Index'
+import Shop from './component/Shop/Shop'
+
+import './font/css/font-awesome.min.css'
+import './App.css';
 function App() {
+  initMock()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Route path='/' exact component={Index} />
+        <Route path='/shop/:id' component={Shop} />
+      </Router>
     </div>
   );
 }

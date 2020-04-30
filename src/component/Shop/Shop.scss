@@ -1,0 +1,7 @@
+.shop {
+    height: 100%;
+    overflow: scroll;
+}
+.shop::-webkit-scrollbar {
+    display: none;
+}

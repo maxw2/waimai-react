@@ -1,0 +1,114 @@
+.shop-content-menu-cars {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 92;
+    .cars {
+        position: relative;
+        height: 50px;
+        background: #3b3b3c;
+        color: #999;
+        z-index: 90;
+        display: flex;
+        align-items: center;
+        .cars-left {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: -10px;
+            margin: 0px 10px;
+            .cars-num{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                background: #FB4E44;
+                border-radius: 16px;
+                font-size: 20px;
+                transform: scale(0.5) translate(50%,-50%);
+                color: #fff;
+                padding: 2px 8px;
+                line-height: 20px;
+            }
+            img {
+                border-radius: 50%;
+                width: 100%;
+                background: none;
+            }
+        }
+        .cars-mid {
+            flex: 1;
+            text-align: left;
+            font-size: 14px;
+            p:nth-child(1){
+                font-size: 24px;
+                color: #fff;
+            }
+            p:nth-child(2){
+                font-size: 11px;
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        .cars-right {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 50px;
+            span {
+                padding: 0 18px;
+            }
+            div {
+                color: #333;
+                background: #f8c74e;
+                font-size: 16px;
+                padding: 0 30px;
+            }
+        }
+    }
+
+    .cars-item {
+        // z-ind;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+
+        .item {
+            // transition: 1s ease transform;
+            .title {
+                height: 30px;
+                display: flex;
+                background: #f4f4f4;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 12px;
+                padding: 4px 15px;
+                color: #4a4a4a;
+                i {
+                    font-size: 14px;
+                    margin-right: 4px;
+                }
+            }
+            .list {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                background: white;
+                .lists {
+                    max-height: 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 15px;
+                    padding: 14px 0;
+                    color: #3b3b3c;
+                    .sell {
+                        flex: 1;
+                        text-align: right;
+                        color: #fb4e44;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

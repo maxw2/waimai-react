@@ -1,0 +1,10 @@
+.shop {
+    .shop-content-eva {
+        width: 100%;
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+    .shop-content-eva::-webkit-scrollbar {
+        display: none;
+    }
+}

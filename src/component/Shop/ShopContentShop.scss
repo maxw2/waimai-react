@@ -1,0 +1,133 @@
+.shop {
+    .shop-content-shop {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: left;
+        .address {
+            overflow: hidden;
+            font-size: 14px;
+            div {
+                margin: 18px 0;
+            }
+        }
+        .archive {
+            overflow: hidden;
+            position: relative;
+            font-size: 16px;
+            div {
+                margin: 18px 0;
+            }
+        }
+        .archive:after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 1px;
+            background: #e4e4e4;
+            transform: scale(1, 0.5);
+            transform-origin: center bottom;
+        }
+        .date {
+            position: relative;
+            overflow: hidden;
+            position: relative;
+            font-size: 14px;
+            i {
+                margin-right: 13px;
+            }
+            div {
+                margin: 18px 0;
+            }
+        }
+        .date:after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 1px;
+            background: #e4e4e4;
+            transform: scale(1, 0.5);
+            transform-origin: center bottom;
+        }
+        .content {
+            overflow: hidden;
+            position: relative;
+            font-size: 14px;
+            position: relative;
+            i {
+                position: absolute;
+                left: 0px;
+            }
+            p {
+                padding-left: 28px;
+                width: 100%;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+            div {
+                margin: 18px 0;
+            }
+        }
+        .services {
+            div {
+                display: flex;
+
+                margin: 18px 0;
+
+                i {
+                    margin-right: 11px;
+                }
+                span {
+                    font-size: 14px;
+                    margin-right: 15px;
+                }
+                ul {
+                    flex: 1;
+                    display: flex;
+                    margin: 0px;
+                    padding: 0px;
+                    flex-wrap: wrap;
+                    li {
+                        font-size: 12px;
+                        margin: 2px 0;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                            vertical-align: middle;
+                            margin-right: 2px;
+                        }
+                        span {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+        .discount {
+            div {
+                margin-bottom: 5px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 4px;
+                    vertical-align: middle;
+                }
+                span {
+                    font-size: 14px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        i {
+            font-size: 18px;
+            color: #d6d6d6;
+            margin-right: 18px;
+        }
+    }
+}

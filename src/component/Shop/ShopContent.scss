@@ -1,0 +1,39 @@
+.shop {
+    .shop-content {
+        overflow: hidden;
+        padding-top: 20px;
+        .shop-content-title {
+            height: 40px;
+            min-height: 40px;
+            border-bottom: 1px solid rgb(231, 231, 231);
+            ul {
+                position: relative;
+                height: 100%;
+                display: flex;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                align-items: center;
+                li {
+                    width: calc(100% / 3);
+                    font-size: 16px;
+                    color: #666;
+                }
+                span {
+                    position: absolute;
+                    left: calc(100% * 1 / 3 / 2 - 10px);
+                    bottom: 0px;
+                    width: 20px;
+                    height: 2px;
+                    background: #ffd300;
+                    transition: 0.5s ease all;
+                }
+                .active {
+                    position: relative;
+                    font-weight: bolder;
+                    color: #333;
+                }
+            }
+        }
+    }
+}

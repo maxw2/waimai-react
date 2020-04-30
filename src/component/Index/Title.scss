@@ -1,0 +1,53 @@
+.index-title {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    padding: 0 10px;
+    background: #1c1b20;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .coordinate {
+        max-width: 200px;
+        transition: 500ms;
+        color: white;
+        font-size: 16px;
+        line-height: 50px;
+        i {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        div {
+            max-width: 140px;
+            margin-right: 22px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+    .input {
+        position: relative;
+        flex: 1;
+        overflow: hidden;
+        border-radius: 100px;
+        i{
+            position: absolute;
+            left: 10px;
+            line-height: 30px;
+            font-size: 14px;
+            color: #9a9a9a;
+        }
+        input{
+            margin: 0px;
+            border: none;
+            width: 100%;
+            height: 30px;
+            padding: 0 30px;
+            box-sizing: border-box;
+            background-color: #dadada;
+        }
+    }
+}

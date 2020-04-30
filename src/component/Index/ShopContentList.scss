@@ -1,0 +1,107 @@
+.index {
+  .index-shop {
+    .shop-content {
+      .content-list {
+        display: flex;
+        padding: 10px;
+        opacity: 1;
+        transition: opacity 0.5s ease 0s;
+        .left {
+          width: 96px;
+          height: 57px;
+          overflow: hidden;
+          margin-right: 10px;
+          img {
+            width: 100%;
+          }
+        }
+        .right {
+          .title {
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+          }
+          .content {
+            ul {
+              display: flex;
+              flex-wrap: wrap;
+              font-size: 10px;
+              li {
+                margin-right: 4px;
+                margin-bottom: 4px;
+              }
+              // 星级
+              .start {
+                text-align: left;
+                font-size: 10px;
+                span:nth-last-child(1) {
+                  margin-right: 4px;
+                }
+                i {
+                  transform: scale(0.8);
+                  color: #ffb309;
+                }
+                .star-o {
+                  color: #e0e0e0;
+                }
+              }
+              // 距离
+              .distance {
+                span::after {
+                  content: " ";
+                  display: inline-block;
+                  width: 1px;
+                  height: 6px;
+                  background: #ccc;
+                  margin: 0px 4px;
+                }
+              }
+            }
+          }
+          .discount {
+            ul {
+              position: relative;
+              max-height: 46px;
+              overflow: hidden;
+              li {
+                text-align: left;
+                align-items: center;
+                img {
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 5px;
+                  vertical-align: middle;
+                }
+                span {
+                  font-size: 11px;
+                  line-height: 1.4;
+                  vertical-align: middle;
+                }
+              }
+              .btn {
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                display: inline-block;
+                width: 5px;
+                height: 5px;
+                border-top: 1px solid #666;
+                border-left: 1px solid #666;
+                margin: 0 0 3px 5px;
+                transform: rotate(-135deg);
+                transition: transform 0.3s ease 0s;
+              }
+            }
+            // 开关
+            .on{
+              max-height: 100px;
+              overflow: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}

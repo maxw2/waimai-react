@@ -1,0 +1,16 @@
+.shop-content-menu-add-cars {
+    visibility: visible;
+    .minus,
+    .add {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        img{
+            width: 100%;
+        }
+    }
+    .num{
+        vertical-align: super;
+        padding: 0px 10px;
+    }
+}
