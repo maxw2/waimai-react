@@ -18,7 +18,9 @@ function ShopContentMenu() {
         })
     }, [])
     return (
-        <div className='shop-content-menu' style={{ width: document.documentElement.clientWidth }}>
+        <div className='shop-content-menu' 
+        // style={{ width: document.documentElement.clientWidth }}
+        >
             {
                 data ?
                     <Menu>

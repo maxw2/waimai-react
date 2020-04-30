@@ -3,7 +3,7 @@ import React from 'react'
 import './ShopContentMenuRight.scss'
 import ShopContentMenuAddCars from './ShopContentMenuAddCars'
 function ShopContentMenuRight(props) {
-    let content = document.querySelector('.shop')
+    let content = document.querySelector('.shop-container')
     function scrollTo_content(ev) {
         let contentTop = content.scrollTop
         let top = ev.currentTarget.scrollTop

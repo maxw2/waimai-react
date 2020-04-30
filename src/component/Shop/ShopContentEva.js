@@ -26,7 +26,8 @@ function ShopContentEva() {
     return (
         <div className='shop-content-eva'
             onScroll={scrollTo_content}
-            style={{ height: document.documentElement.clientHeight - 40, width: document.documentElement.clientWidth }}>
+            style={{ height: document.documentElement.clientHeight - 40 }}
+        >
             {
                 data ?
                     <>

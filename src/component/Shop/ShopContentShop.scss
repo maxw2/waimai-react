@@ -1,10 +1,11 @@
 .shop {
     .shop-content-shop {
-        width: 100%;
-        padding: 0 15px;
-        box-sizing: border-box;
+        // width: 100%;
+        flex: 1;
         text-align: left;
+        box-sizing: border-box;
         .address {
+            margin-left: 15px;
             overflow: hidden;
             font-size: 14px;
             div {
@@ -12,6 +13,7 @@
             }
         }
         .archive {
+            margin-left: 15px;
             overflow: hidden;
             position: relative;
             font-size: 16px;
@@ -30,6 +32,7 @@
             transform-origin: center bottom;
         }
         .date {
+            margin-left: 15px;
             position: relative;
             overflow: hidden;
             position: relative;
@@ -52,6 +55,7 @@
             transform-origin: center bottom;
         }
         .content {
+            margin-left: 15px;
             overflow: hidden;
             position: relative;
             font-size: 14px;
@@ -73,6 +77,7 @@
             }
         }
         .services {
+            margin-left: 15px;
             div {
                 display: flex;
 
@@ -108,9 +113,9 @@
             }
         }
         .discount {
+            margin-left: 15px;
             div {
                 margin-bottom: 5px;
-
                 img {
                     width: 15px;
                     height: 15px;

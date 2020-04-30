@@ -15,7 +15,7 @@ function ShopContentShop() {
             })
     }, [])
     return (
-        <div className='shop-content-shop' style={{ width: document.documentElement.clientWidth }}>
+        <div className='shop-content-shop'>
             {
                 data ?
                     <>

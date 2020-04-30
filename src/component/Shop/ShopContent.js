@@ -35,7 +35,7 @@ function ShopContent() {
 
     }
     return (
-        <div className='shop-content' style={{ height: document.documentElement.clientHeight }}>
+        <div className='shop-content' >
             <div className='shop-content-title'>
                 <ul onClick={swiper}>
                     <li data-btn='0' className='active'>点菜</li>

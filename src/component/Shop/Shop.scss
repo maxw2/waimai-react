@@ -1,7 +1,19 @@
 .shop {
+    position: relative;
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
+    .shop-container {
+        height: 100%;
+        overflow: scroll;
+    }
 }
 .shop::-webkit-scrollbar {
     display: none;
+}
+.shop-container::-webkit-scrollbar{
+    display: none;
+}
+
+html,body,#root,.App{
+    height: 100%;
 }

@@ -19,9 +19,14 @@ function Shop() {
     }, [])
     return (
         <Theme>
-            <div className='shop' style={{ height: document.documentElement.clientHeight }}>
-                <ShopTitle title={data.title} />
-                <ShopContent />
+            <div className='shop'
+            // style={{ height: document.documentElement.clientHeight }}
+            >
+                <div className='shop-container'>
+                    <ShopTitle title={data.title} />
+                    <ShopContent />
+                    
+                </div>
                 <ShopContentMenuCars />
             </div>
         </Theme>

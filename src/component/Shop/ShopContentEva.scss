@@ -1,6 +1,7 @@
 .shop {
     .shop-content-eva {
-        width: 100%;
+        // width: 100%;
+        flex: 1;
         overflow-y: scroll;
         box-sizing: border-box;
     }
