@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/waimai-react/static/css/main.d049a9c1.chunk.css",
-    "main.js": "/waimai-react/static/js/main.43ed174f.chunk.js",
-    "main.js.map": "/waimai-react/static/js/main.43ed174f.chunk.js.map",
+    "main.js": "/waimai-react/static/js/main.a4d77b47.chunk.js",
+    "main.js.map": "/waimai-react/static/js/main.a4d77b47.chunk.js.map",
     "runtime-main.js": "/waimai-react/static/js/runtime-main.46651d54.js",
     "runtime-main.js.map": "/waimai-react/static/js/runtime-main.46651d54.js.map",
     "static/js/2.e305d7ca.chunk.js": "/waimai-react/static/js/2.e305d7ca.chunk.js",
     "static/js/2.e305d7ca.chunk.js.map": "/waimai-react/static/js/2.e305d7ca.chunk.js.map",
     "index.html": "/waimai-react/index.html",
-    "precache-manifest.e80170933c965285ca8ece075903dcf1.js": "/waimai-react/precache-manifest.e80170933c965285ca8ece075903dcf1.js",
+    "precache-manifest.d1b0259cd811225015b32f3efa018f3d.js": "/waimai-react/precache-manifest.d1b0259cd811225015b32f3efa018f3d.js",
     "service-worker.js": "/waimai-react/service-worker.js",
     "static/css/main.d049a9c1.chunk.css.map": "/waimai-react/static/css/main.d049a9c1.chunk.css.map",
     "static/js/2.e305d7ca.chunk.js.LICENSE.txt": "/waimai-react/static/js/2.e305d7ca.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.46651d54.js",
     "static/js/2.e305d7ca.chunk.js",
     "static/css/main.d049a9c1.chunk.css",
-    "static/js/main.43ed174f.chunk.js"
+    "static/js/main.a4d77b47.chunk.js"
   ]
 }
