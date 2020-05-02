@@ -37,9 +37,6 @@ function ShopContentEvaList(props) {
 
                 ))
             }
-            {
-                console.log(props.list[0].nameImg)
-            }
         </div >
     )
 }

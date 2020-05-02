@@ -7,8 +7,10 @@ function ShopContentMenuRight(props) {
     function scrollTo_content(ev) {
         let contentTop = content.scrollTop
         let top = ev.currentTarget.scrollTop
+
         if (Math.abs(top - contentTop) > 50) return
         content.scrollTo(0, top)
+
     }
 
     return (

@@ -6,7 +6,7 @@ import MenuRight from './MenuRight'
 import './Menu.scss'
 function Menu(props) {
     const [data, setData] = React.useState([])
-    React.useEffect(() => {
+    function creatMenuData() {
         let left = document.querySelector('.common-menu-left').children[0]
         let right = document.querySelector('.common-menu-right').children[0]
         let leftChild = left.children
@@ -23,9 +23,16 @@ function Menu(props) {
                 content: rightChild[i],
                 top: rightChild[i].offsetTop
             }]
+
             arr.push(obj)
         }
         setData(arr)
+    }
+    React.useEffect(() => {
+        setTimeout(()=>{
+            creatMenuData()
+        },500)
+        
     }, [])
     return (
         <div className='common-menu'>

@@ -3,6 +3,7 @@ import React from 'react'
 import './MenuLeft.scss'
 function MenuLeft(props) {
     function menuLeftClick(ev) {
+        if (!props.menuData.length) return
         let el = ev.target
         let btn = el.getAttribute('data-btn')
         if (!btn) return
@@ -16,19 +17,18 @@ function MenuLeft(props) {
             behavior: 'smooth'
         })
 
-        
+
 
     }
-    
+
     function menuLeftScrollTo(menuData) {
         const data = menuData
         const el = data[0].el
         const el_h = data[0].el.clientHeight
-        const content_h = data[0].content.clientHeight
         const leftTop = data[0].top - (el_h / 2)
-        
+
         el.scrollTo({
-            top:leftTop,
+            top: leftTop,
             // behavior: 'smooth'
         })
 
