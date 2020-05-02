@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1420c864c7eda8d63b0d187716ad4b5",
+    "revision": "c0802cdc91e9ddd66f7880b6b9ae9984",
     "url": "/waimai-react/index.html"
   },
   {
-    "revision": "4e8e6ad89579b776db55",
+    "revision": "d69b672eb5661f04515d",
     "url": "/waimai-react/static/css/main.d049a9c1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waimai-react/static/js/2.e305d7ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e8e6ad89579b776db55",
-    "url": "/waimai-react/static/js/main.46ad1243.chunk.js"
+    "revision": "d69b672eb5661f04515d",
+    "url": "/waimai-react/static/js/main.3d169af4.chunk.js"
   },
   {
     "revision": "cb4b42eaaf0e2ca41307",
