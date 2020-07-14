@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/waimai-react/precache-manifest.f4ab9d6bbda69269bcc666f09b5e9da8.js"
+  "/waimai-react/precache-manifest.f19e4a729ca81bfef66511d607b5d772.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/waimai-react/static/css/main.e976c1ac.chunk.css",
-    "main.js": "/waimai-react/static/js/main.ddf58215.chunk.js",
-    "main.js.map": "/waimai-react/static/js/main.ddf58215.chunk.js.map",
+    "main.css": "/waimai-react/static/css/main.8e63b7ec.chunk.css",
+    "main.js": "/waimai-react/static/js/main.b6e37654.chunk.js",
+    "main.js.map": "/waimai-react/static/js/main.b6e37654.chunk.js.map",
     "runtime-main.js": "/waimai-react/static/js/runtime-main.46651d54.js",
     "runtime-main.js.map": "/waimai-react/static/js/runtime-main.46651d54.js.map",
     "static/js/2.e305d7ca.chunk.js": "/waimai-react/static/js/2.e305d7ca.chunk.js",
     "static/js/2.e305d7ca.chunk.js.map": "/waimai-react/static/js/2.e305d7ca.chunk.js.map",
     "index.html": "/waimai-react/index.html",
-    "precache-manifest.f4ab9d6bbda69269bcc666f09b5e9da8.js": "/waimai-react/precache-manifest.f4ab9d6bbda69269bcc666f09b5e9da8.js",
+    "precache-manifest.f19e4a729ca81bfef66511d607b5d772.js": "/waimai-react/precache-manifest.f19e4a729ca81bfef66511d607b5d772.js",
     "service-worker.js": "/waimai-react/service-worker.js",
-    "static/css/main.e976c1ac.chunk.css.map": "/waimai-react/static/css/main.e976c1ac.chunk.css.map",
+    "static/css/main.8e63b7ec.chunk.css.map": "/waimai-react/static/css/main.8e63b7ec.chunk.css.map",
     "static/js/2.e305d7ca.chunk.js.LICENSE.txt": "/waimai-react/static/js/2.e305d7ca.chunk.js.LICENSE.txt",
     "static/media/Rolling-1s-200px.svg": "/waimai-react/static/media/Rolling-1s-200px.b800e9ba.svg",
     "static/media/font-awesome.min.css": "/waimai-react/static/media/fontawesome-webfont.fee66e71.woff",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.46651d54.js",
     "static/js/2.e305d7ca.chunk.js",
-    "static/css/main.e976c1ac.chunk.css",
-    "static/js/main.ddf58215.chunk.js"
+    "static/css/main.8e63b7ec.chunk.css",
+    "static/js/main.b6e37654.chunk.js"
   ]
 }
