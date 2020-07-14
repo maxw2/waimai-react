@@ -5,92 +5,115 @@
         position: relative;
         .filter {
           width: 400%;
+          height: 1000%;
           position: absolute;
           top: 41px;
           right: 0px;
           background: white;
           display: none;
           font-weight: 400;
-          ul {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0px;
-            padding: 0px;
-            list-style: none;
-            font-size: 12px;
-            color: black;
-            box-sizing: border-box;
-            li {
-              width: calc(100% / 3 - 20px);
-              box-sizing: border-box;
-              text-align: center;
-              line-height: 30px;
-              border: 1px solid #ccc;
-              margin: 10px 0px 0px 15px;
-            }
-          }
-          // 配送
-          .take {
-            padding: 10px 0px 15px 0px;
-            border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+          .content {
+            height: 100%;
+          overflow-y: scroll;
             ul {
+              display: flex;
+              flex-wrap: wrap;
+              margin: 0px;
+              padding: 0px;
+              list-style: none;
+              font-size: 12px;
+              color: black;
+              box-sizing: border-box;
               li {
-                margin-top: 0px;
+                width: calc(100% / 3 - 20px);
+                box-sizing: border-box;
+                text-align: center;
+                line-height: 30px;
+                border: 1px solid #ccc;
+                margin: 10px 0px 0px 15px;
               }
             }
-            i {
-              margin-right: 4px;
-              color: rgb(255, 166, 0);
-            }
-          }
-          // 商家特色
-          .features {
-            padding: 10px 0px 15px 0px;
-            border-bottom: 1px solid rgba(228, 228, 228, 0.5);
-            .features-title {
-              text-align: left;
-              font-size: 12px;
-              color: #999;
-              margin-left: 15px;
-            }
-          }
-          // 人均价
-          .average {
-            padding: 10px 0px 15px 0px;
-            border-bottom: 1px solid rgba(228, 228, 228, 0.5);
-            .average-title {
-              text-align: left;
-              font-size: 12px;
-              color: #999;
-              margin-left: 15px;
-            }
-          }
-          // 优惠活动
-          .discount {
-            padding: 10px 0px 15px 0px;
-            border-bottom: 1px solid rgba(228, 228, 228, 0.5);
-            .discount-title {
-              text-align: left;
-              font-size: 12px;
-              color: #999;
-              margin-left: 15px;
-            }
-            ul {
-              padding-left: 15px;
-              li {
-                width: 50%;
-                margin: 0px;
-                border: none;
-                text-align: left;
-                line-height: 30px;
-                margin: 5px 0px;
-                img {
-                  width: 15px;
-                  height: 15px;
-                  vertical-align: middle;
-                  margin: -3px 5px 0px 0px;
+            // 配送
+            .take {
+              padding: 10px 0px 15px 0px;
+              border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+              ul {
+                li {
+                  margin-top: 0px;
                 }
               }
+              i {
+                margin-right: 4px;
+                color: rgb(255, 166, 0);
+              }
+            }
+            // 商家特色
+            .features {
+              padding: 10px 0px 15px 0px;
+              border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+              .features-title {
+                text-align: left;
+                font-size: 12px;
+                color: #999;
+                margin-left: 15px;
+              }
+            }
+            // 人均价
+            .average {
+              padding: 10px 0px 15px 0px;
+              border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+              .average-title {
+                text-align: left;
+                font-size: 12px;
+                color: #999;
+                margin-left: 15px;
+              }
+            }
+            // 优惠活动
+            .discount {
+              padding: 10px 0px 15px 0px;
+              border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+              .discount-title {
+                text-align: left;
+                font-size: 12px;
+                color: #999;
+                margin-left: 15px;
+              }
+              ul {
+                padding-left: 15px;
+                li {
+                  width: 50%;
+                  margin: 0px;
+                  border: none;
+                  text-align: left;
+                  line-height: 30px;
+                  margin: 5px 0px;
+                  img {
+                    width: 15px;
+                    height: 15px;
+                    vertical-align: middle;
+                    margin: -3px 5px 0px 0px;
+                  }
+                }
+              }
+            }
+          }
+          .button{
+            width: 100%;
+            position: absolute;
+            bottom: -50px;
+            font-size: 16px;
+            span{
+              display: inline-block;
+              width: 50%;
+              height: 50px;
+              line-height: 50px;
+            }
+            span:nth-child(1){
+              background-color: #fff;
+            }
+            span:nth-child(2){
+              background-color: #FFD161;
             }
           }
         }

@@ -106,50 +106,56 @@ function ShopTagFilter() {
             data-btn='false'
             onClick={filter}>筛选<i className='fa fa-filter'></i>
             <div className='filter'>
-                <div className='take'>
-                    <ul>
-                        {
-                            take.map((val, index) => (
-                                <li key={index}>
-                                    <i className='fa fa-bicycle'></i>
-                                    {val.name}
-                                </li>
-                            ))
-                        }
-                    </ul>
+                <div className='content'>
+                    <div className='take'>
+                        <ul>
+                            {
+                                take.map((val, index) => (
+                                    <li key={index}>
+                                        <i className='fa fa-bicycle'></i>
+                                        {val.name}
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                    <div className='features'>
+                        <div className='features-title'>商家特色（可多选）</div>
+                        <ul>
+                            {
+                                features.map((val, index) => (
+                                    <li key={index}>{val}</li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                    <div className='average'>
+                        <div className='average-title'>人均价</div>
+                        <ul>
+                            {
+                                average.map((val, index) => (
+                                    <li key={index}>{val}</li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                    <div className='discount'>
+                        <div className='discount-title'>优惠活动（单选）</div>
+                        <ul>
+                            {
+                                discount.map((val, index) => (
+                                    <li key={index}>
+                                        <img src={val.image} />
+                                        {val.name}
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
                 </div>
-                <div className='features'>
-                    <div className='features-title'>商家特色（可多选）</div>
-                    <ul>
-                        {
-                            features.map((val, index) => (
-                                <li key={index}>{val}</li>
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div className='average'>
-                    <div className='average-title'>人均价</div>
-                    <ul>
-                        {
-                            average.map((val, index) => (
-                                <li key={index}>{val}</li>
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div className='discount'>
-                    <div className='discount-title'>优惠活动（单选）</div>
-                    <ul>
-                        {
-                            discount.map((val, index) => (
-                                <li key={index}>
-                                    <img src={val.image} />
-                                    {val.name}
-                                </li>
-                            ))
-                        }
-                    </ul>
+                <div className='button'>
+                    <span>清除筛选</span>
+                    <span>完成</span>
                 </div>
             </div>
         </li>
